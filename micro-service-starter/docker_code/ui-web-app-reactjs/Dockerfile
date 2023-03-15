@@ -1,4 +1,4 @@
-FROM node:8.7-alpine
+FROM node:8
 WORKDIR /app
 COPY . .
 RUN npm install
